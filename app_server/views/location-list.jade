@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1
+          | HotelRoom
+          small &nbsp;Find hotels to stay!
+  .row
+    .col-xs-12.col-sm-8
+      .row.list-group
+        .col-xs-12.list-group-item
+          h4
+            a(href='/location') Tulips
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 100m
+          p.address jodimetla,pocharam,hyderabad
+          p
+            span.label.label-warning Rooms
+            | &nbsp;
+            span.label.label-warning Food
+            | &nbsp;
+            span.label.label-warning Spa
+            | &nbsp;
+        .col-xs-12.list-group-item
+          h4
+            a(href='/location1') Novotel
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 200m
+          p.address Hi-Tech City
+          p
+            span.label.label-warning Clean and spacious Rooms
+            | &nbsp;
+            span.label.label-warning Restaurant
+            | &nbsp;
+            span.label.label-warning Wellness center
+            | &nbsp;
+        .col-xs-12.list-group-item
+          h4
+            a(href='/location2') ITc kaktaiya
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 250m
+          p.address Begumpet,hyderabad
+          p
+            span.label.label-warning Food
+            | &nbsp;
+            span.label.label-warning Rooms
+            | &nbsp;
+    .col-xs-12.col-sm-4
+      p.lead
+        | Looking for hotel Rooms near you?Go check in Hotel Rooms website for better experience.
