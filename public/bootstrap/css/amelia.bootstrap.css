@@ -86,8 +86,8 @@ hr {
 }
 
 mark {
-  color: #000;
-  background: #ff0;
+  color: #000000;
+  background: rgb(0, 255, 229);
 }
 
 code,
@@ -270,11 +270,11 @@ table {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #ffffff !important;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: #000 !important;
+    border-top-color: #000000bb !important;
   }
   .label {
     border: 1px solid #000;

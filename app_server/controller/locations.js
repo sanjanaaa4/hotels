@@ -3,13 +3,14 @@ module.exports.homeList= function(req,res){
 };
 
 module.exports.locationInfo= function(req,res){
-  res.render('location-info',{title:'Grand hotel'});
+  res.render('location-info',{title:'tulips'});
 };
 module.exports.locationInfo1= function(req,res){
-  res.render('location-info1',{title:'Roosevelt hotel'});
+  res.render('location-info1',{title:'novotel'});
 };
 module.exports.locationInfo2= function(req,res){
-  res.render('location-info2',{title:'Plaza Hotel'});
+  res.render('location-info2',{title:'itc  kakatiya'});
+  
 };
 
 module.exports.addReview= function(req,res){
